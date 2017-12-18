@@ -1,25 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* This is a backend Rails API built to render character data from the hit HBO show, Silicon Valley.
 
-Things you may want to cover:
+* All data is generated at random using the Faker Gem, found in the gemfile. Note that every time you seed,
+  the data is randomized and will therefore will change between seeds
 
-* Ruby version
+* Some individual character info (name and gif if character) is manually generated in the seed file. That will remain constant.
 
-* System dependencies
+* Run bundle install and a local Rails server to get started
 
-* Configuration
+* front end app rendering of this data can be found in this repo: https://github.com/yassimortensen/silicon-valley-react-frontend
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 # silicon-valley-api
